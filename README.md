@@ -9,7 +9,7 @@ Proyecto compatible con Mono C# y Visual Studio C#
 ## Primeros Pasos
 
 - Compilar el proyecto con Visual Studio o Xamarin Studio
-- Ejecutar la aplicacion con el formato: ./app <puerto> <key_hash> <modo_debug (0 apagado o 1 encendido)>
+- Ejecutar la aplicacion con el formato: ./app puerto key_hash modo_debug (0 apagado o 1 encendido)
 - Ejemplo: ./app 8000 SemillaAntiHack 0
 - El cliente debe conectarse al puerto 8000 y enviar mensajes en formato json, para ver el formato que debe enviar revisar el archivo PosServer.cs ya que aun no esta lista la documentacion
 
